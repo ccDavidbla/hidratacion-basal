@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+body{
+    background-image: url(https://img.freepik.com/vector-premium/fondo-abstracto-moderno-concepto-salud-tecnologia-simbolo-medico-patron-hexagonal_236657-1688.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Montserrat', sans-serif;
+    height: 700px;
+    animation: movetriangle 4s linear infinite;
+}
+h1{
+    color: #28345e;
+
+}
+#titulo{
+    text-align: center;
+    margin-top: 30px;
+}
+#contenedor{
+    width: 900px;
+    height: 500px;
+    text-align: center;
+    /* Estas 3 lineas se encargan de centrar el div vertical y horizontalmente */
+    position: absolute;
+    inset: 0;
+    margin: auto;
+}
+#calcular{
+    background: #c5e558;
+    /* Con estas 3 lineas vamos a hacer que los divs queden lado a lado */
+    width: 50%;
+    height: 100%;
+    float: left;
+    border-radius: 30px;
+    color: #1d6187;
+
+}
+#detalle{
+    background: #6dde65;
+    /* Con estas 3 lineas vamos a hacer que los divs queden lado a lado */
+    width: 50%;
+    height: 100%;
+    float: left;
+    color:#467080;
+    border-radius: 30px;
+}
+.contenido{
+    /* Estas tres lineas van a centrar el contenido verticalmente dentro de cada div */
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    overflow: hidden;
+    padding: 40px;
+}
+input {
+	width: 70%;
+    padding: 12px 15px;
+    border: #9d9f56;
+    background-color: #b9dbbe;
+}
+
+button {
+  font-size: 15px;
+	font-weight: bold;
+	padding: 12px 45px;
+	border-radius: 30px;
+	background-color: #b66572;
+	border: 1px solid #b66572;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	transition: transform 20ms ease-in;
+}
+
+button:active {
+	transform: scale(0.98);
+}
